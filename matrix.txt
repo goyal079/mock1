@@ -1,0 +1,33 @@
+Your Task is to create a Matrix class called **Matrix** in a file *matrix.js*, this class will perform the Matrix Operations listed below
+Please clone (or pull) your repository and create a new branch called Lab, work in your new branch and push the branch frequently with each new method you add to your class
+Your class must:
+test to make sure the matrices are the same size for Addition,Subtraction, and Multiplication.
+return a new matrix from all operations or return false
+*Addition*
+[1,2,3]    [1,2,3]    [2,4,6]
+[4,5,6]  + [4,5,6]  = [8,10,12]
+[7,8,9]    [7,8,9]    [14,16,18]
+*Subtraction*
+[1,2,3]    [1,2,3]    [0,0,0]
+[4,5,6]  - [4,5,6]  = [0,0,0]
+[7,8,9]    [7,8,9]    [0,0,0]
+*Multiplication*
+[1,2,3]    [1,2,3]    [2,4,9]
+[4,5,6]  x [4,5,6]  = [16,25,36]
+[7,8,9]    [7,8,9]    [49,64,91]
+*Scale*
+[1,2,3]          [2,4,6]
+[4,5,6]  x 2   = [8,10,12]
+[7,8,9]          [14,16,18]
+*Transpose*
+[1,2,3]    [1,4,7]
+[4,5,6]  = [2,5,8]
+[7,8,9]    [3,6,9]
+VectorProduct
+[1,2,3]    [1]    [1,8,21]
+[4,5,6]  x [4]  = [4,20,42]
+[7,8,9]    [7]    [74,32,63]
+here is your test dataset
+let MatrixA=[[1,4,2],[2,0,-7],[3,1,4]];
+let MatrixB=[[0,1,2],[6,-2,3],[7,0,2]];
+let VectorA=[1,2,0];
