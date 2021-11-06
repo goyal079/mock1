@@ -1,0 +1,49 @@
+// We are going to build a utility class that performs 2d matrix operations on coordinate arrays.
+// The filename will be matrix2d.js and the class name matrix2d
+
+// The class will modify the contents of given array performning the requested operations
+
+// let data=[
+//     [100,100],
+//     [100,200],
+//     [200,200],
+//     [200,100],
+//     [100,100]
+// ];
+
+// This represents coordinates to draw a square on the screen finishing at the starting position
+// Implement a static method to transpose2d to transpose this square using a vector [20,30]
+
+// result=[
+//     [120,130],
+//     [120,230],
+//     [220,230],
+//     [220,130],
+//     [120,130]
+// ];
+
+// write a static method scale2d to scale your coordinates eg by 3
+// result=[
+//     [300,300],
+//     [300,600],
+//     [600,600],
+//     [600,300],
+//     [300,300]
+// ];
+
+// write a method rotate2d to rotate the points in your data
+
+// let data=[
+//     [100,100],
+//     [100,200],
+//     [200,200],
+//     [200,100],
+//     [100,100]
+// ];
+
+// create a static method to rotate each point using a rotation matrix  for a give angle A
+// * note Math.cos() uses radians
+// to convert degrees to radians multiply by pi and divide by 180
+
+// 	[x,y] *  [cos(A), -sin(A)],[sin(A),  cos(A)] =  [xcos(A)-ysin(A),  xsin(A)+ycos(A)]
+//
